@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Super Mario Bros - O Filme</title>
+
+    <!--Miniatura da imagem no topo da guia-->
+    <link rel="shortcut icon" href="/imagens/favicon.ico" type="image/x-icon">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+</head>
+<body>
+
+    <!--Video de fundo-->
+    <div class="fundo-video">
+        <!--
+            autoplay - começa o video automaticamente
+            loop - deixa o video em loop
+            muted - retira o som do video
+        -->
+        <video autoplay loop muted class="video">
+            <source src="/videos/video-mario.mp4" type="video/mp4"> 
+        </video>
+    </div>
+
+
+    <!--Cabeçalho-->
+    <header class="cabecalho">
+        
+        <a>
+            <img class="logo" src="/imagens/logo-chapeu-mario.png" alt="logo chapéu Mario">
+        </a>
+
+        <nav>
+            <ul class="menu">
+                <li>Home</li>
+                <li>Detalhes</li>
+            </ul>
+        </nav>
+
+    </header>
+
+    <!--Conteudo Principal-->
+    <main class="container">
+
+        <div class="informacoes">
+
+            <img src="/imagens/titulo.png" alt="Super Mario Bros" class="imagem-titulo">
+            <p class="descricao">Mario é um filme baseado na série de video games, Super Mario Bros, da Nintendo. Em Super Mario Bros. - O Filme, Mario é um encanador qualquer no bairro de Brooklyn junto com seu irmão Luigi. Um dia, Mario e Luigi vão para no reino dos cogumelos, governado pela Princesa Peach, mas ameaçado pelo rei dos Koopas, Bowser, que vai fazer de tudo para conseguir reinar todos os lugares. É então quando Luigi é raptado por Bowser e o usa para procurar Mario, o único capaz de deter o Koopa e reestabelexcer a paz. Mario terá que aprender como viver nesse novo reino perigoso, passando por vários biomas, aprender a dirigir carros, utilizar itens que o fazem soltar bolas de fogo das mãos, virar um animal e andar em plataformas nada confiáveis. Também estará acompanhados de amigos, como Toad e Donkey Kong.</p>
+            
+            <button class="botao-trailer">Veja o trailer</button>
+
+        </div>
+
+        <img src="/imagens/super-mario-chars.png" alt="Imagem do Mario" class="mario">
+
+    </main>
+    
+</body>
+</html>
